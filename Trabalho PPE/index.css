@@ -1,0 +1,51 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+  }
+
+body{
+    background-color: black;
+    color: aliceblue;
+            background-image: url(./Backgrond\ index.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+}
+
+h1{
+    
+    position: center;
+    text-align: center;
+    margin: 0px;
+    top: 0px;
+    color: rgb(255, 185, 80);
+    border-radius: 10px;
+    font-size: 120px;
+}
+
+button{
+    color:aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:rgb(45, 45, 45);
+    font-size: 30px;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Criar{
+    position:absolute;
+    margin: 840px;
+    top: -600px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 32px;
+    background-color: rgb(25, 25, 25);
+    color: rgb(140, 140, 140);
+    text-align: center;
+  }
